@@ -1,0 +1,26 @@
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.solve-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

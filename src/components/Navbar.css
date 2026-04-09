@@ -1,0 +1,30 @@
+.navbar {
+
+  background: green;
+
+  padding: 15px;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+
+}
+
+
+.nav-button {
+
+  background: yellow;
+
+  padding: 10px 20px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  color: black;
+
+  font-weight: bold;
+
+}

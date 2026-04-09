@@ -1,0 +1,107 @@
+.counsellor-container {
+
+  padding: 40px;
+
+  background: #0f172a;
+
+  min-height: 100vh;
+
+  color: white;
+
+}
+
+.title {
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+}
+
+
+/* Cards */
+
+.requests-container {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+
+}
+
+.request-card {
+
+  background: #1e293b;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+}
+
+
+/* Status colors */
+
+.status {
+
+  margin-left: 10px;
+
+  font-weight: bold;
+
+}
+
+.status.Pending {
+
+  color: orange;
+
+}
+
+.status.InProgress {
+
+  color: yellow;
+
+}
+
+.status.Resolved {
+
+  color: lime;
+
+}
+
+
+/* textarea */
+
+textarea {
+
+  width: 100%;
+
+  margin-top: 10px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+}
+
+
+/* button */
+
+.resolve-btn {
+
+  margin-top: 10px;
+
+  background: green;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}

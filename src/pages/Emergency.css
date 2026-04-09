@@ -1,0 +1,73 @@
+.emergency-container {
+
+  text-align: center;
+
+  padding: 50px;
+
+  background: #f4f6f8;
+
+  min-height: 100vh;
+
+}
+
+.emergency-title {
+
+  color: red;
+
+  font-size: 50px;
+
+  font-weight: bold;
+
+}
+
+.emergency-subtitle {
+
+  font-size: 20px;
+
+  margin-bottom: 30px;
+
+}
+
+.call-button {
+
+  background: red;
+
+  color: white;
+
+  font-size: 28px;
+
+  padding: 20px 40px;
+
+  border: none;
+
+  border-radius: 15px;
+
+  cursor: pointer;
+
+  margin-bottom: 40px;
+
+}
+
+.emergency-cards {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+}
+
+.ecard {
+
+  background: green;
+
+  color: white;
+
+  padding: 30px;
+
+  border-radius: 15px;
+
+  width: 200px;
+
+}
