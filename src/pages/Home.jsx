@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
-
   const [anonymous, setAnonymous] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div className="home-container">
@@ -22,15 +23,24 @@ function Home() {
         {/* Buttons */}
         <div className="button-group">
 
-          <button className="primary-btn">
+          <button
+            className="primary-btn"
+            onClick={() => navigate("/counselling")}
+          >
             Get Support
           </button>
 
-          <button className="secondary-btn">
+          <button
+            className="secondary-btn"
+            onClick={() => navigate("/victim")}
+          >
             File Complaint
           </button>
 
-          <button className="emergency-btn">
+          <button
+            className="emergency-btn"
+            onClick={() => navigate("/emergency")}
+          >
             🚨 EMERGENCY HELP
           </button>
 
@@ -56,8 +66,7 @@ function Home() {
 
       </div>
 
-
-      {/* Info Cards */}
+      {/* Cards */}
       <div className="cards">
 
         <div className="card">
